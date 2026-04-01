@@ -31,7 +31,7 @@ By quantizing the weights and activations from 32-bit floats to 8-bit integers, 
 ## 🛠️ Visualizing the Compression
 To prove the quantization math, the notebook extracts the final dense layer weights and visualizes the compression. Millions of continuous floating-point numbers are cleanly snapped into 256 discrete integer buckets using the calculated scale factor.
 
-*(Include a screenshot of your dual-histogram plot from Cell 12 here in your actual GitHub repo)*
+![Mathematical Impact of INT8 Quantization on Model Weights](quantization_histogram.png)
 
 ## 💻 How to Run This Project
 Because this project uses native TensorFlow rather than outdated high-level API wrappers, it is fully compatible with modern Python 3.12+ environments.
