@@ -47,5 +47,3 @@ Because this project uses native TensorFlow rather than outdated high-level API 
 * **Edge ML:** TensorFlow Lite (`tf.lite`)
 * **Data Manipulation & Visualization:** NumPy, Matplotlib
 
----
-*Developed as a demonstration of advanced model optimization techniques for edge-device deployment.*
